@@ -1,6 +1,7 @@
 # Discover deez
 
 Mobile: 
+
 <img
     src="https://user-images.githubusercontent.com/29899042/196787281-41716a7a-0dff-4eef-9286-d4d9cffa5679.png" width="200">
 <img
