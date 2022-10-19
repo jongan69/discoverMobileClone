@@ -6,7 +6,7 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web" : "cd ./web && yarn start",
+    "web" : "cd ./web && yarn build && yarn start",
     "buildweb" : "cd ./web && yarn build",
     "eject": "expo eject",
     "test": "jest --watchAll"
