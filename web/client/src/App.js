@@ -10,15 +10,20 @@ function App() {
       .then(res => res.json())
       .then(data => setApi({ name: data.name }))
 
-  },[])
+  }, [])
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       
       </header>
-      <h1>Hello {api?.name}!</h1>
+
+      {!api ?
+        <h1>No API Data!</h1>
+        :
+        <h1>Hello {api?.name}!</h1>
+      }
+
     </div>
   );
 }
