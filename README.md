@@ -16,6 +16,12 @@ API:
 
 ## Usage
 
+`yarn ios` - Run iOS App
+`yarn android` - Run Android App
+`yarn web` - Build React App + Start Express Server
+
+### Features
+
 - Built using Web3auth
 - Has nhost for Graph QL Auth
 - Has React Web App + Nodejs Server
