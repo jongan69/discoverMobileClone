@@ -17,8 +17,11 @@ API:
 ## Usage
 
 `yarn ios` - Run iOS App
+
 `yarn android` - Run Android App
+
 `yarn web` - Build React App + Start Express Server
+
 
 ### Features
 
