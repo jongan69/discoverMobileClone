@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "backend for web6",
     "main": "app.js",
-    "homepage": "./client/build",
+    "homepage": "./client/build/index",
     "scripts": {
       "start": "nodemon app.js",
       "build": "cd client && yarn && yarn run build",

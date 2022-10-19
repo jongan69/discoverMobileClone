@@ -19,7 +19,7 @@ function App() {
       </header>
 
       {!api ?
-        <h1>No API Data!</h1>
+        <h1>This is static!</h1>
         :
         <h1>Hello {api?.name}!</h1>
       }

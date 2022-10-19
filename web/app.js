@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, './client/build')));
 
 app.get("/api", function(req, res) {
-  res.send({"name": "Discover"}) // Should be json format
+  res.send({"name": "API RESPONSE"}) // Should be json format
 })
 
 app.get('/', function (req, res) {
