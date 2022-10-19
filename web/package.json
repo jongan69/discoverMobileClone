@@ -1,5 +1,5 @@
 {
-    "name": "web6api",
+    "name": "auth-api",
     "version": "1.0.0",
     "description": "backend for web6",
     "main": "app.js",
