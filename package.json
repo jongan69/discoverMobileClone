@@ -2,7 +2,7 @@
   "name": "discover-mobile-clone",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "./web",
+  "homepage": "./web/client/build/index.html",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
